@@ -566,3 +566,75 @@ ul{
     width: 80px;
     margin-top: 50px;
 }
+
+/* Responsiveness */
+
+@media screen and (max-width:1000px){
+    .logo-img img{
+        height: 30px;
+    }
+    .search-bar input{
+        width: 200px;
+        margin-left: 15px;
+    }
+    .search-bar img{
+        margin-left: 20px;
+    }
+    .sign-up-sign-in .sign-in{
+        width: 70px;
+    }
+    .list-item{
+        font-size: 14px;
+    }
+    .slogan-2{
+        font-size: 30px;
+    }
+    .banner img{
+        width: 310px;
+        height: 300px;
+        margin-left: -100px;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .stats-para{
+        font-size: 20px;
+    }
+    .achiver-heading {
+        font-size: 20px;
+    }
+    .slider {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 13px;
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+    .fame-imgs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .program-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hackathon div img{
+        width: 800px;
+    }
+    .product-graphic{
+        gap: 20px;
+        justify-content: center;
+    }
+    .footer-main{
+        gap: 20px;
+    }
+    .about ul{
+        font-size:12px ;
+    }
+    .pro ul{
+        font-size: 14px;
+    }
+}
